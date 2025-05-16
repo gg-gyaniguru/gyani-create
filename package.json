@@ -1,0 +1,35 @@
+{
+  "name": "gyani-create",
+  "version": "1.0.0",
+  "description": "gyani-create",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "gyani-create": "index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gg-gyaniguru/gyani-create.git"
+  },
+  "keywords": [
+    "gyani-create"
+  ],
+  "author": "Kishor Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gg-gyaniguru/gyani-create/issues"
+  },
+  "homepage": "https://github.com/gg-gyaniguru/gyani-create#readme",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fs-extra": "^11.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.1",
+    "fs-extra": "^11.3.0",
+    "picocolors": "^1.1.1"
+  }
+}

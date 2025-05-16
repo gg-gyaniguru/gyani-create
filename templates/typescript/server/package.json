@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "module": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun run src/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.13",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.97"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.12.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
+    "socket.io": "^4.8.1"
+  }
+}
