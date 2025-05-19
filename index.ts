@@ -1,7 +1,13 @@
+#!/usr/bin/env node
+
 import {cancel, intro, isCancel, confirm, log, outro, select, text} from '@clack/prompts';
 import fs from 'fs-extra';
+import { fileURLToPath } from 'url';
 import path from 'path';
 import color from 'picocolors';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 console.log('');
 
