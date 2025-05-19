@@ -1,11 +1,11 @@
 {
   "name": "gyani-create",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "description": "gyani-create",
-  "module": "index.ts",
+  "module": "bin/gyani-create.js",
   "type": "module",
   "bin": {
-    "gyani-create": "index.ts"
+    "gyani-create": "bin/gyani-create.js"
   },
   "repository": {
     "type": "git",

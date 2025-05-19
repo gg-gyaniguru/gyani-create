@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 
 import {cancel, intro, isCancel, confirm, log, outro, select, text} from '@clack/prompts';
 import fs from 'fs-extra';
